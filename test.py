@@ -1,4 +1,3 @@
-import unittest
 from main import StudentsInMLOps
 
 class TestStudentsInMLOps(unittest.TestCase):
@@ -20,6 +19,3 @@ class TestStudentsInMLOps(unittest.TestCase):
 
     def test_get_class_name(self):
         self.assertEqual(self.mlops_class.getClassName(), "MLOps")
-
-if __name__ == '__main__':
-    unittest.main()
