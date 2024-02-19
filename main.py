@@ -18,12 +18,3 @@ class StudentsInMLOps:
 
     def getClassName(self):
         return self.class_name
-
-# Example usage:
-if _name_ == "_main_":
-    mlops_class = StudentsInMLOps()
-    print("Class name:", mlops_class.getClassName())
-    mlops_class.enrollStudents(10)
-    mlops_class.enrollStudents(5)
-    mlops_class.dropStudents(2)
-    print("Total strength:", mlops_class.getTotalStrength())
